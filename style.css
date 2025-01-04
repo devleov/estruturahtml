@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 10px 150px 0 150px;
+    padding: 15px 40px;
+    /* border-left: 1px solid gray;
+    border-right: 1px solid gray; */
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #232121;
+}
+
+abbr {
+    color: #d2cc8a;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+/* Caixa de quem criou o artigo */
+
+.infoArticle {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: 0px 0px 40px 0px;
+}
+
+.infoArticle .contentCreatedArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+    /* border: 1px solid black; */
+}
+.infoArticle .contentCreatedArticle p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.infoArticle .contentCreatedArticle img {
+    height: 31px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.infoArticle time {
+    text-align: center;
+    flex: 50%;
+    color: #d2cc8a;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+
+.redContent .redImg {
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.redContent .redImg img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #bc8f8f;
+    font-family: Montserrat;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+span {
+    color: #27ba38
+}
+
+div img {
+    border-radius: 10px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+div p {
+    font-weight: 400;
+}
+
+
+
+/* Configuração da caixa de redes sociais */
+
+.boxSocial {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    height: 50px;
+    clear: both;
+    border-radius: 10px;
+}
+
+.boxSocial a {
+    /* border: 1px solid red; */
+    width: 43px;
+}
+
+.boxSocial img {
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+/* Configuração da seção */
+
+section {
+    flex-flow: column wrap;
+}
+
+section img {
+    float: left;
+    margin-right: 15px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+
+
+.thank-you h4 {
+    font-size: 25px;
+    color: #bc8f8f;
+    text-align: center;
+}
+
+.thank-you p {
+    font-size: 20px;
+}
