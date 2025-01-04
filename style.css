@@ -172,5 +172,7 @@ section p {
 
     .redImg {
         margin-bottom: 30px;
+        max-width: 450px;
+        min-width: 390px;
     }
 }
